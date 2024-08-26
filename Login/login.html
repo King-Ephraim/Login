@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="login-form">
+        <form action="#">
+            <h3>Log in with</h3>
+
+            <div class="login-option">
+                <div class="option">
+                    <a href="#">
+                        <img src="./image/google.png" alt="googleImage">
+                        <span>Google</span>
+                    </a>
+                </div>
+                <div class="option">
+                    <a href="#">
+                        <img src="./image/apple.png" alt="AppleImage">
+                    </a>
+                </div>
+            </div>
+
+            <p class="separator">
+                <span>or</span>
+            </p>
+
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="EMAIL" placeholder="Entrer votre adresse Email" required>
+            </div>
+
+            <div class="input-box">
+                <div class="password-title">
+                    <label for="password">Password</label>
+                    <a href="#">Forgot Password ?</a>
+                </div>
+
+                <input type="password" name="password" id="password" placeholder="Entrer votre mot de passe" required>
+            </div>
+
+            <button type="submit">Log In</button>
+
+            <p class="sign-up">Don't have an account <a href="#">Sign Up?</a></p>
+        </form>
+    </div>
+</body>
+</html>
